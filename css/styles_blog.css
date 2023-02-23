@@ -1,0 +1,99 @@
+body{
+  background-color: #F9F9F9;
+}
+.navbar{
+  overflow: hidden;
+  background-color:#F9F9F9;
+  z-index: 500;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  display: inline-block;
+}
+.side_head{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  font-size: 40px;
+  position: relative;
+  bottom: 10px;
+}
+.trash{
+  color:#90B77D;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: 800px;
+  bottom: 70px;
+  margin: 10px 40px;
+  text-decoration: none;
+  font-weight:bold;
+}
+.navbar a:hover{
+
+  color:black;
+}
+.main_container{
+  margin: 0;
+  padding-top: 100px;
+}
+.head{
+font-family:'Merriweather', serif;
+margin-left: 100px;
+margin-top: 80px;
+line-height: 3;
+}
+.collect{
+  width: 300px;
+  float: right;
+  position: relative;
+  right: 40px;
+  bottom: 50px;
+}
+.scecond-part{
+  padding-top:100px;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  line-height: 3;
+
+}
+.collecting{
+  width: 20%;
+  float:right;
+  position: relative;
+  right: 50px;
+
+
+}
+.graind{
+ width: 20%;
+ float: right;
+ position: relative;
+ right: auto;
+ left: 200px;
+ top: 300px;
+
+}
+p{
+  text-align: justify; /* For Edge */
+  margin-left: 100px;
+  margin-right:400px;
+}
+.third-part{
+  padding-top:100px;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  line-height: 3;
+  padding-bottom: 100px;
+}
+.sorting{
+  width: 30%;
+  height: 50%;
+  float:right;
+  position: relative;
+  top:100px;
+  right: 20px;
+}
